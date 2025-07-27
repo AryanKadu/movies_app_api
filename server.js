@@ -10,12 +10,24 @@ app.get('/api/movies', (req, res) => {
 });
 
 const cors = require('cors');
-app.use(cors()); // Allow all origins (for dev)
 
+// Allow both localhost (dev) and any production frontend (like Netlify/Vercel)
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://your-frontend-domain.com', // put your actual deployed frontend URL here
+];
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: function (origin, callback) {
+    // allow requests with no origin (like mobile apps or curl)
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error('CORS not allowed for this origin'));
+    }
+  }
 }));
+
 
 
 // (Optional) Endpoint to get a specific movie by ID
