@@ -1,32 +1,29 @@
 const express = require('express');
+const cors = require('cors');
 const movies = require('./data'); // This imports your exported movies array from data.js
 
 const app = express();
 const PORT = 8080;
 
-// Endpoint to get all movies
-app.get('/api/movies', (req, res) => {
-  res.json(movies);
+// CORS middleware - MUST be applied BEFORE routes
+app.use(cors({
+  origin: true, // Allow all origins for now (you can restrict this later)
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+}));
+
+// Add a simple test endpoint
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'CORS is working!' });
 });
 
-const cors = require('cors');
-
-// Allow both localhost (dev) and any production frontend (like Netlify/Vercel)
-const allowedOrigins = [
-  'http://localhost:3000',
-  'https://your-frontend-domain.com', // put your actual deployed frontend URL here
-];
-
-app.use(cors({
-  origin: function (origin, callback) {
-    // allow requests with no origin (like mobile apps or curl)
-    if (!origin || allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('CORS not allowed for this origin'));
-    }
-  }
-}));
+// Endpoint to get all movies
+app.get('/api/movies', (req, res) => {
+  console.log('Movies endpoint hit!');
+  console.log('Origin:', req.headers.origin);
+  res.json(movies);
+});
 
 
 
