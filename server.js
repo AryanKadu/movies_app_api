@@ -9,6 +9,15 @@ app.get('/api/movies', (req, res) => {
   res.json(movies);
 });
 
+const cors = require('cors');
+app.use(cors()); // Allow all origins (for dev)
+
+
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
+
+
 // (Optional) Endpoint to get a specific movie by ID
 app.get('/api/movies/:id', (req, res) => {
   const movie = movies.find(m => m.id === req.params.id);
