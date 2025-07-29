@@ -35,6 +35,20 @@ app.get('/api/movies/genres', (req, res) => {
   res.json(movieGenres);
 });
 
+// Endpoint to get all unique genres
+app.get('/api/genres', (req, res) => {
+  console.log('All genres endpoint hit!');
+  
+  const allGenres = new Set();
+  movies.forEach(movie => {
+    const movieGenres = movie.genre.split(', ').map(genre => genre.trim());
+    movieGenres.forEach(genre => allGenres.add(genre));
+  });
+  
+  const genresArray = Array.from(allGenres).map(genre => ({ genre }));
+  res.json(genresArray);
+});
+
 // Endpoint to filter movies by genre
 app.get('/api/genre', (req, res) => {
   const { genre } = req.query;
