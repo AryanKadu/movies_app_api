@@ -25,7 +25,15 @@ app.get('/api/movies', (req, res) => {
   res.json(movies);
 });
 
-
+// Endpoint to get movie IDs and their genres
+app.get('/api/movies/genres', (req, res) => {
+  console.log('Genres endpoint hit!');
+  const movieGenres = movies.map(movie => ({
+    movie_id: movie.id,
+    genres: movie.genre.split(', ').map(genre => genre.trim())
+  }));
+  res.json(movieGenres);
+});
 
 // (Optional) Endpoint to get a specific movie by ID
 app.get('/api/movies/:id', (req, res) => {
