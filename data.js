@@ -15,7 +15,7 @@ const movies = [
     "director_name": "Frank Darabont",
     "writer_name": "Stephen King,Frank Darabont",
     "writer_id": "nm0000175,nm0001104",
-    "image_link": "https://www.posterized.in/cdn/shop/products/movie-poster-63.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
   },
   {
     "rank": "2",
@@ -69,7 +69,7 @@ const movies = [
     "director_name": "Francis Ford Coppola",
     "writer_name": "Mario Puzo,Francis Ford Coppola",
     "writer_id": "nm0701374,nm0000338",
-    "image_link": "https://filmartgallery.com/cdn/shop/files/godfather-part-2-movie-poster-1974-27x41.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YzRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "5",
@@ -87,7 +87,7 @@ const movies = [
     "director_name": "Sidney Lumet",
     "writer_name": "Reginald Rose",
     "writer_id": "nm0741886",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/07/12_angry_men.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMWU4N2FmNzktNmMzMC00MzExLWI5MjItYzQzN2Y2YjI0YzU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "6",
@@ -105,7 +105,7 @@ const movies = [
     "director_name": "Steven Spielberg",
     "writer_name": "Thomas Keneally,Steven Zaillian",
     "writer_id": "nm0443336,nm0952470",
-    "image_link": "https://i.ebayimg.com/images/g/r9AAAOSwaHNiyzY3/s-l1600.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "rank": "7",
@@ -123,7 +123,7 @@ const movies = [
     "director_name": "Peter Jackson",
     "writer_name": "J.R.R. Tolkien,Fran Walsh",
     "writer_id": "nm0853380,nm0903798",
-    "image_link": "https://m.media-amazon.com/images/I/71JBrPH5OzL._AC_UF894,1000_QL80_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "8",
@@ -141,7 +141,7 @@ const movies = [
     "director_name": "Quentin Tarantino",
     "writer_name": "Quentin Tarantino,Roger Avary",
     "writer_id": "nm0000233,nm0046697",
-    "image_link": "https://m.media-amazon.com/images/I/51K8ouYrHeL._AC_SY445_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "9",
@@ -159,7 +159,7 @@ const movies = [
     "director_name": "Sergio Leone",
     "writer_name": "Luciano Vincenzoni,Sergio Leone",
     "writer_id": "nm0898421,nm0001466",
-    "image_link": "https://images-na.ssl-images-amazon.com/images/I/81ZQOEw2dxL.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNjRlZDM4NzAtMzE1YS00NmQ2LWFkNzYtZGI3MWQzZWFjM2YzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "10",
@@ -177,7 +177,7 @@ const movies = [
     "director_name": "David Fincher",
     "writer_name": "Chuck Palahniuk,Jim Uhls",
     "writer_id": "nm0656906,nm0880475",
-    "image_link": "https://www.posterized.in/cdn/shop/products/movie-poster-17.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
   },
   {
     "rank": "11",
@@ -195,7 +195,7 @@ const movies = [
     "director_name": "Peter Jackson",
     "writer_name": "J.R.R. Tolkien,Fran Walsh,Philippa Boyens",
     "writer_id": "nm0853380,nm0903798,nm0106816",
-    "image_link": "https://m.media-amazon.com/images/I/91d0jvJ7EXL._AC_UF894,1000_QL80_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWIyNTczMzQxZmFhNDk4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "rank": "12",
@@ -213,7 +213,7 @@ const movies = [
     "director_name": "Robert Zemeckis",
     "writer_name": "Winston Groom,Eric Roth",
     "writer_id": "nm1001753,nm0744834",
-    "image_link": "https://m.media-amazon.com/images/I/61VzP*TgLzL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "13",
@@ -231,7 +231,7 @@ const movies = [
     "director_name": "Christopher Nolan",
     "writer_name": "Christopher Nolan",
     "writer_id": "nm0634240",
-    "image_link": "https://m.media-amazon.com/images/I/81w1N8sGBwL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
   },
   {
     "rank": "14",
@@ -249,7 +249,7 @@ const movies = [
     "director_name": "Peter Jackson",
     "writer_name": "J.R.R. Tolkien,Fran Walsh,Philippa Boyens",
     "writer_id": "nm0853380,nm0903798,nm0106816",
-    "image_link": "https://m.media-amazon.com/images/I/81FJB1ndkmL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjNzgtNTIxYy00YzZmLThjMTItNzJkYTU3OTMyYWRjXkEyXkFqcGdeQXVyMTUzNTgzNzM@._V1_.jpg"
   },
   {
     "rank": "15",
@@ -267,7 +267,7 @@ const movies = [
     "director_name": "Irvin Kershner",
     "writer_name": "Leigh Brackett,Lawrence Kasdan,George Lucas",
     "writer_id": "nm0104142,nm0001434,nm0000184",
-    "image_link": "https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back_poster.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "16",
@@ -285,7 +285,7 @@ const movies = [
     "director_name": "Lana Wachowski",
     "writer_name": "Lilly Wachowski,Lana Wachowski",
     "writer_id": "nm0905154,nm0905152",
-    "image_link": "https://m.media-amazon.com/images/I/613BkYbKa0L._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "rank": "17",
@@ -303,7 +303,7 @@ const movies = [
     "director_name": "Martin Scorsese",
     "writer_name": "Nicholas Pileggi,Martin Scorsese",
     "writer_id": "nm0683792,nm0000217",
-    "image_link": "https://m.media-amazon.com/images/I/91dMDEQ+FAL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "18",
@@ -321,7 +321,7 @@ const movies = [
     "director_name": "Milos Forman",
     "writer_name": "Lawrence Hauben,Bo Goldman",
     "writer_id": "nm0360285,nm0001284",
-    "image_link": "https://upload.wikimedia.org/wikipedia/en/9/9b/Cuckoos_nest.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZjA5OWM2YzgtYzY5My00YzZiLWIyMDctNjQ3OGVkZTVhZWQ3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "19",
@@ -339,7 +339,7 @@ const movies = [
     "director_name": "Akira Kurosawa",
     "writer_name": "Akira Kurosawa,Shinobu Hashimoto",
     "writer_id": "nm0000041,nm0369092",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Seven_Samurai_poster1.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMTAzY2Q4OGUtNzg2MS00N2Y3LWFmMTEtOTlhYjIxMWFmZWM2XkEyXkFqcGdeQXVyNDk2NTU3NzE@._V1_.jpg"
   },
   {
     "rank": "20",
@@ -357,7 +357,7 @@ const movies = [
     "director_name": "David Fincher",
     "writer_name": "Andrew Kevin Walker",
     "writer_id": "nm0906741",
-    "image_link": "https://m.media-amazon.com/images/I/81xoO7xagzL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "rank": "21",
@@ -375,7 +375,7 @@ const movies = [
     "director_name": "Frank Capra",
     "writer_name": "Frances Goodrich,Albert Hackett",
     "writer_id": "nm0328990,nm0352559",
-    "image_link": "https://m.media-amazon.com/images/I/818T7DeJ3zL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BYmJkM2U1ZDgtYzE5ZC00ZjEzLWFkOWQtYWM2NmFjMjA3N2Q0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "22",
@@ -393,7 +393,7 @@ const movies = [
     "director_name": "Jonathan Demme",
     "writer_name": "Thomas Harris,Ted Tally",
     "writer_id": "nm0365507,nm0848293",
-    "image_link": "https://m.media-amazon.com/images/I/51ghn5aLsML._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNjNhZTk4ZmEtNjJhMi00YzFlLGE1MmEtYzY1OTYzOTAzYzNhXkEyXkFqcGdeQXVyNDk2NTU3NzE@._V1_.jpg"
   },
   {
     "rank": "23",
@@ -411,7 +411,7 @@ const movies = [
     "director_name": "Steven Spielberg",
     "writer_name": "Robert Rodat",
     "writer_id": "nm0736390",
-    "image_link": "https://m.media-amazon.com/images/I/61khEeKya9L._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVmOC00ZTZhLWIyY2EtNDMyNzE4MWQ4MzFjXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_.jpg"
   },
   {
     "rank": "24",
@@ -429,7 +429,7 @@ const movies = [
     "director_name": "Robert Zemeckis",
     "writer_name": "Robert Zemeckis,Bob Gale",
     "writer_id": "nm0000709,nm0301894",
-    "image_link": "https://m.media-amazon.com/images/I/61ZJ0ajzfvL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjQwLWFmZTAtYzAwMzQxNzRlZmE2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
   },
   {
     "rank": "25",
@@ -447,7 +447,7 @@ const movies = [
     "director_name": "George Lucas",
     "writer_name": "George Lucas",
     "writer_id": "nm0000184",
-    "image_link": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZDctMzhxZWNkOGRhODc3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "26",
@@ -465,7 +465,7 @@ const movies = [
     "director_name": "Hayao Miyazaki",
     "writer_name": "Hayao Miyazaki",
     "writer_id": "nm0594503",
-    "image_link": "https://m.media-amazon.com/images/I/91D27rOENtL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
   },
   {
     "rank": "27",
@@ -483,7 +483,7 @@ const movies = [
     "director_name": "Bong Joon Ho",
     "writer_name": "Bong Joon Ho,Han Jin-won",
     "writer_id": "nm0094435,nm10178940",
-    "image_link": "https://m.media-amazon.com/images/I/81EsfFo9ciL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
   },
   {
     "rank": "28",
@@ -501,7 +501,7 @@ const movies = [
     "director_name": "Frank Darabont",
     "writer_name": "Stephen King,Frank Darabont",
     "writer_id": "nm0000175,nm0001104",
-    "image_link": "https://m.media-amazon.com/images/I/51DDW1FHUFL._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5Ml5BMl5BanBnXkFtZTYwOTU2NTY3._V1_.jpg"
   },
   {
     "rank": "29",
@@ -519,7 +519,7 @@ const movies = [
     "director_name": "Christopher Nolan",
     "writer_name": "Jonathan Nolan,Christopher Nolan",
     "writer_id": "nm0634300,nm0634240",
-    "image_link": "https://m.media-amazon.com/images/I/717uioQvBXS._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
   },
   {
     "rank": "30",
@@ -537,7 +537,7 @@ const movies = [
     "director_name": "Michael Curtiz",
     "writer_name": "Julius J. Epstein,Philip G. Epstein,Howard Koch",
     "writer_id": "nm0258923,nm0258924,nm0462446",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Goldwyn.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BY2IzZGY3YmUtYzUwZS00ZGUxLWI3YzEtOTUzYzYyNjk3NDkyXkEyXkFqcGdeQXVyNDk2NTU3NzE@._V1_.jpg"
   },
   {
     "rank": "31",
@@ -555,7 +555,7 @@ const movies = [
     "director_name": "Robert Mulligan",
     "writer_name": "Harper Lee,Horton Foote",
     "writer_id": "nm0497533,nm0285072",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f1/To_Kill_a_Mockingbird_%281962_poster%29.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "32",
@@ -573,7 +573,7 @@ const movies = [
     "director_name": "Roman Polanski",
     "writer_name": "Ronald Harwood,Władysław Szpilman",
     "writer_id": "nm0367327,nm0810479",
-    "image_link": "https://m.media-amazon.com/images/I/41DDfSCpPNL._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BOWRiMzIxZjQtZDQxYy00M2ExLWJkMjgtYWRmMjBjZmM1OGM4XkEyXkFqcGdeQXVyNDk2NTU3NzE@._V1_.jpg"
   },
   {
     "rank": "33",
@@ -591,7 +591,7 @@ const movies = [
     "director_name": "James Cameron",
     "writer_name": "James Cameron,William Wisher",
     "writer_id": "nm0000116,nm0936305",
-    "image_link": "https://m.media-amazon.com/images/I/71Zd4on8nGL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjktOGUxMS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
   },
   {
     "rank": "34",
@@ -609,7 +609,7 @@ const movies = [
     "director_name": "Roberto Benigni",
     "writer_name": "Vincenzo Cerami,Roberto Benigni",
     "writer_id": "nm0148537,nm0000905",
-    "image_link": "https://upload.wikimedia.org/wikipedia/en/7/7c/Vitaebella.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmUtZTEyYTQ1M2E2Yzc4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
   },
   {
     "rank": "35",
@@ -627,7 +627,7 @@ const movies = [
     "director_name": "Ridley Scott",
     "writer_name": "David Franzoni,John Logan,William Nicholson",
     "writer_id": "nm0292011,nm0517589,nm0629540",
-    "image_link": "https://m.media-amazon.com/images/I/61XqXb1YG5L._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNTMzOTY0OTUyOV5BMl5BanBnXkFtZTcwMDQ0NDMzMw@@._V1_.jpg"
   },
   {
     "rank": "36",
@@ -645,7 +645,7 @@ const movies = [
     "director_name": "Tony Kaye",
     "writer_name": "David McKenna",
     "writer_id": "nm0571022",
-    "image_link": "https://upload.wikimedia.org/wikipedia/en/0/0a/American_History_X_poster.png"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZjA0MTM4MTQtNzU5MC00NTY5LWEyYjUtN2Q0YzU2N2IzYzFkOWI4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "37",
@@ -663,7 +663,7 @@ const movies = [
     "director_name": "Christopher Nolan",
     "writer_name": "Jonathan Nolan,Christopher Nolan,Christopher Priest",
     "writer_id": "nm0634300,nm0634240,nm0693416",
-    "image_link": "https://m.media-amazon.com/images/I/51h9ElaDELL._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMTA3NDY5MzYzNjReQTJeQWpwZ15BbWU4MDU3MjAyMTEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
   },
   {
     "rank": "38",
@@ -681,7 +681,7 @@ const movies = [
     "director_name": "Sergio Leone",
     "writer_name": "Sergio Donati,Sergio Leone",
     "writer_id": "nm0230365,nm0001466",
-    "image_link": "https://m.media-amazon.com/images/I/81ztWYQiIPL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzQzZi00NGQyLWE4MzYtZTM5MmQ5NzQ4YzVjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "39",
@@ -699,7 +699,7 @@ const movies = [
     "director_name": "Martin Scorsese",
     "writer_name": "William Monahan,Alan Mak,Felix Chong",
     "writer_id": "nm0597729,nm0536076,nm0491395",
-    "image_link": "https://m.media-amazon.com/images/I/81Ich4Cw8nL._AC_SY741_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg"
   },
   {
     "rank": "40",
@@ -717,7 +717,7 @@ const movies = [
     "director_name": "Christopher Nolan",
     "writer_name": "Christopher Nolan,Jonathan Nolan",
     "writer_id": "nm0634240,nm0634300",
-    "image_link": "https://m.media-amazon.com/images/I/71lAONguUkL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNThiYjM3MzktMDg3Yy00ZWQ3LTk2YWEtN2M2YmQyNzQ1YzVjXkEyXkFqcGdeQXVyNDk2NTU3NzE@._V1_.jpg"
   },
   {
     "rank": "41",
@@ -735,7 +735,7 @@ const movies = [
     "director_name": "Francis Ford Coppola",
     "writer_name": "John Milius,Francis Ford Coppola",
     "writer_id": "nm0587507,nm0000338",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/19/Apocalypse_Now_poster.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4ZGJjNWFjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "42",
@@ -753,7 +753,7 @@ const movies = [
     "director_name": "Bryan Singer",
     "writer_name": "Christopher McQuarrie",
     "writer_id": "nm0568857",
-    "image_link": "https://m.media-amazon.com/images/I/714Phevvo0L._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BY2JkYjE4MWYtMGJlZC00OWVhLWJlZDctMGM1MmFjMDc2ODQ3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "43",
@@ -771,7 +771,7 @@ const movies = [
     "director_name": "Steven Spielberg",
     "writer_name": "Lawrence Kasdan,George Lucas,Philip Kaufman",
     "writer_id": "nm0001434,nm0000184,nm0442115",
-    "image_link": "https://m.media-amazon.com/images/I/51f4gmz5C1L._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU2My00NzMwLWE5NmQtYjRjN2IyNTU2NWM1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "44",
@@ -789,7 +789,7 @@ const movies = [
     "director_name": "Charles Chaplin",
     "writer_name": "Charles Chaplin",
     "writer_id": "nm0000122",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/fa/The_Great_Dictator_1940_poster.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiNWUwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "45",
@@ -807,7 +807,7 @@ const movies = [
     "director_name": "Quentin Tarantino",
     "writer_name": "Quentin Tarantino",
     "writer_id": "nm0000233",
-    "image_link": "https://m.media-amazon.com/images/I/81wUYFKMoVL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjIyMTQ3Mjg1NF5BMl5BanBnXkFtZTcwNDE1NzYzOQ@@._V1_.jpg"
   },
   {
     "rank": "46",
@@ -825,7 +825,7 @@ const movies = [
     "director_name": "Damien Chazelle",
     "writer_name": "Damien Chazelle",
     "writer_id": "nm3227090",
-    "image_link": "https://m.media-amazon.com/images/I/81+8h9c0iIL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwZWItM2I3ZzlmNmU2MzczXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_.jpg"
   },
   {
     "rank": "47",
@@ -843,7 +843,7 @@ const movies = [
     "director_name": "Alfred Hitchcock",
     "writer_name": "John Michael Hayes,Cornell Woolrich",
     "writer_id": "nm0371021,nm0941236",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/8/80/Rear_Window_film_poster.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWEyNGMtZjQ5ODM2MTQxNGY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
   },
   {
     "rank": "48",
@@ -861,7 +861,7 @@ const movies = [
     "director_name": "Alfred Hitchcock",
     "writer_name": "Ernest Lehman",
     "writer_id": "nm0500245",
-    "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/6a/North_by_Northwest_%281959_poster%29.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BZDA3NDExMTUtMDlhOC00MmE5LWEzY2YtM2M2MmQ3MWZlMTcyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
     "rank": "49",
@@ -879,7 +879,7 @@ const movies = [
     "director_name": "Anthony Russo",
     "writer_name": "Christopher Markus,Stephen McFeely",
     "writer_id": "nm0995356,nm0571356",
-    "image_link": "https://m.media-amazon.com/images/I/91qvWQQ9fKL._AC_SY679_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg"
   },
   {
     "rank": "50",
@@ -897,7 +897,7 @@ const movies = [
     "director_name": "Luc Besson",
     "writer_name": "Luc Besson",
     "writer_id": "nm0000108",
-    "image_link": "https://m.media-amazon.com/images/I/51+H2O+EDVL._AC_.jpg"
+    "image_link": "https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE5N15BMl5BanBnXkFtZTcwMjU5MjIyNw@@._V1_.jpg"
   }
 ]
 
