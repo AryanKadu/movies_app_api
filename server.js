@@ -35,6 +35,24 @@ app.get('/api/movies/genres', (req, res) => {
   res.json(movieGenres);
 });
 
+// Endpoint to filter movies by genre
+app.get('/api/genre', (req, res) => {
+  const { genre } = req.query;
+  
+  if (!genre) {
+    return res.status(400).json({ message: 'Genre parameter is required' });
+  }
+  
+  console.log(`Filtering movies by genre: ${genre}`);
+  
+  const filteredMovies = movies.filter(movie => {
+    const movieGenres = movie.genre.split(', ').map(g => g.trim());
+    return movieGenres.some(g => g.toLowerCase() === genre.toLowerCase());
+  });
+  
+  res.json(filteredMovies);
+});
+
 // (Optional) Endpoint to get a specific movie by ID
 app.get('/api/movies/:id', (req, res) => {
   const movie = movies.find(m => m.id === req.params.id);
